@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="comp1" name="mainPage" tests="1" errors="0" failures="1" skipped="0" time="1322.29" timestamp="2020-04-19T11:38:16">
+                     <properties>
+      <property name="java.specification.version" value="13"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1251"/><property name="sun.arch.data.model" value="64"/><property name="sbt.supershell" value="false"/><property name="java.vendor.url" value="https://java.oracle.com/"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin"/><property name="sun.java.command" value="C:\Users\r.r.gimaziev\AppData\Roaming\JetBrains\IdeaIC2020.1\plugins\Scala\launcher\sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;C:\Users\r.r.gimaziev\AppData\Local\Temp\idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 20811 ; idea-shell"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp866"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2019-09-17"/><property name="java.home" value="C:\Program Files\Java\jdk-13"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp866"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="13+33"/><property name="user.name" value="r.r.gimaziev"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.io.tmpdir" value="C:\Users\RR9D39~1.GIM\AppData\Local\Temp\"/><property name="java.version" value="13"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\Program Files\Java\jdk-13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\product\18.0.0\dbhomeXE\bin;C:\oracle;C:\Program Files\Java\jdk-13\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\r.r.gimaziev\AppData\Local\Microsoft\WindowsApps;C:\Users\r.r.gimaziev\AppData\Local\Programs\Fiddler;."/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="C:\Users\r.r.gimaziev\AppData\Roaming\JetBrains\IdeaIC2020.1\plugins\Scala\launcher\sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Samara"/><property name="java.vm.specification.version" value="13"/><property name="os.name" value="Windows 10"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="RU"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\r.r.gimaziev"/><property name="user.language" value="ru"/><property name="swoval.tmpdir" value="C:\Users\r.r.gimaziev\.sbt\1.0"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sbt.log.noformat" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="C:\Users\r.r.gimaziev\IdeaProjects\test"/><property name="os.arch" value="amd64"/><property name="idea.managed" value="true"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="13+33"/><property name="java.class.version" value="57.0"/>
+    </properties>
+                     <testcase classname="mainPage" name="" time="1322.29">
+                                                 <failure message="java.lang.reflect.InvocationTargetException: null" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at io.gatling.app.Runner.run0(Runner.scala:74)
+	at io.gatling.app.Runner.run(Runner.scala:60)
+	at io.gatling.app.Gatling$.start(Gatling.scala:80)
+	at io.gatling.app.Gatling$.fromArgs(Gatling.scala:46)
+	at io.gatling.sbt.GatlingTask.liftedTree1$1(GatlingTask.scala:52)
+	at io.gatling.sbt.GatlingTask.execute(GatlingTask.scala:51)
+	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: sbt.ForkMain$ForkError: java.lang.IllegalArgumentException: Could not locate feeder file: Resource search.csv not found
+	at io.gatling.core.feeder.FeederSupport.separatedValues(FeederSupport.scala:45)
+	at io.gatling.core.feeder.FeederSupport.separatedValues$(FeederSupport.scala:40)
+	at io.gatling.core.Predef$.separatedValues(Predef.scala:24)
+	at io.gatling.core.feeder.FeederSupport.csv(FeederSupport.scala:34)
+	at io.gatling.core.feeder.FeederSupport.csv$(FeederSupport.scala:33)
+	at io.gatling.core.Predef$.csv(Predef.scala:24)
+	at mainPage$deleteComp$.&lt;init&gt;(mainPage.scala:40)
+	at mainPage.deleteComp$lzycompute$1(mainPage.scala:39)
+	at mainPage.deleteComp(mainPage.scala:39)
+	at mainPage.&lt;init&gt;(mainPage.scala:74)
+	... 16 more
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
